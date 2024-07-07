@@ -1,2 +1,3 @@
 # AML_Mutation_Interaction_Viewer
-ShinyApp Project
+
+A Shiny application, designed to shows the mutational tree of a tumor and its interactions with treatments.
