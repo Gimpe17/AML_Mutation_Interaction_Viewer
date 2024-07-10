@@ -348,7 +348,7 @@ ui <- fluidPage(
         </div>
         <div style="display: flex; align-items: center; margin-bottom: 3px;">
           <div style="width: 20px; height: 20px; min-width: 20px; min-height: 20px; border-radius: 50%; background-color: #ffa07a; margin-right: 10px;"></div>
-          <div>Mutation indirectly interacting with the drug (trough parent mutation)</div>
+          <div>Mutation indirectly interacting with the drug (through parent mutation)</div>
         </div>'
       ),
       conditionalPanel(condition = "input.n_predictions != 0", 
@@ -362,7 +362,7 @@ ui <- fluidPage(
                     </div>
                     <div style="display: flex; align-items: center; margin-bottom: 3px;">
                     <div style="width: 20px; height: 20px; min-width: 20px; min-height: 20px; border-radius: 50%; background-color: #9aff9a; margin-right: 10px;"></div>
-                    <div>Predicted mutation indirectly interacting with the drug (trough parent mutation)</div>
+                    <div>Predicted mutation indirectly interacting with the drug (through parent mutation)</div>
                     </div>')          
       ),
       width = 3
